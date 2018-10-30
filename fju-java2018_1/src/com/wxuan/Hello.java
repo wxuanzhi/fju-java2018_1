@@ -1,17 +1,28 @@
 package com.wxuan; 
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello {
  
 	public static void main(String[] args) {
+		int a = 5;
+		while(a > 0){
+		System.out.println("AAAA");
+		a = a-6;
+		}
+		
 		// TODO Auto-generated method stub
+		Random random = new Random();
+		int secret = random.nextInt(100)+1;
+		System.out.println(secret);
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Your name?");
 		String name = scanner.nextLine();
 		System.out.println(name);
-
 		
+
 		Student stu = new Student("wxuan", 70, 90);
 		stu.print();
 		System.out.println(3 <= 5);
