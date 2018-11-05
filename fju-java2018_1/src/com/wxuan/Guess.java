@@ -37,3 +37,31 @@ public class Guess {
 	}
 
 }
+
+
+		/*int small = 0;
+		int large = 100;
+		Random random = new Random();
+		Scanner scanner = new Scanner(System.in);
+		int number = random.nextInt(100)+1;
+		System.out.println("Guess a number between 0~100");
+		
+		while(true)
+		{
+			int guess = scanner.nextInt();
+			if(guess < number)
+			{
+				System.out.println("Guess a number between" + guess + "~" + large);
+				small = guess;
+			}
+			else if(guess > number)
+				{
+		    	System.out.println("Guess a number between" + small + "~" + guess);
+		    	large = guess;
+				}
+		    else
+		        {		
+		    	System.out.println("BINGO!");
+		    }
+		}*/
+		
