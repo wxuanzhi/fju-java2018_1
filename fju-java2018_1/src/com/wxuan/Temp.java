@@ -13,9 +13,5 @@ public class Temp {
 //		double f = c*(9.0/5) + 32;
 		System.out.printf("%.1f C = %.1f F\nkelvin:%.1 K",
 				c, temp.fahrenheit(), temp.kelvin());
-		
-		
-
 	}
-
 }

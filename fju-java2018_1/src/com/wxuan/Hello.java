@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class Hello {
  
 	public static void main(String[] args) {
+		int i = 1;
+		for(i=1 ; i < 5 ; i ++){
+			System.out.println(i);
+		
 		int a = 5;
 		while(a > 0){
 		System.out.println("AAAA");
@@ -62,12 +66,5 @@ public class Hello {
 		float f = 0.1f + 0.1f + 0.1f + 0.1f + 0.1f + 0.1f + 0.1f + 0.1f + 0.1f + 0.1f;
 		System.out.println(f);*/
 	}
-
-
-		
-		
-		
-		
-		
-		
 	}
+}
