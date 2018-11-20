@@ -35,9 +35,9 @@ public class Hello {
 		System.out.println(s == s);
 		
 
-		/*stu.name = "wxuan"
+		stu.name = "wxuan";
 		stu.english = 70;
-		stu.math = 90;*/
+		stu.math = 90;
 		
 		Person p = new Person(47f, 1.53f);
 		System.out.println(p.bmi());
